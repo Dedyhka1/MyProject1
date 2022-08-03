@@ -1,0 +1,45 @@
+
+ 
+
+
+ h1{ 
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;  /* Нвсыщенасть шрифта*/
+  color: rgb(237, 30, 11);
+ } 
+
+.boxblock{
+   display: inline-flex; /*Все элементы в одну строку по горезонтали*/
+   justify-content:space-between;/*Выравнивает элементы по центру и по сторонам а space-between распредиляет по всей шерине*/   
+   align-items: center;/*Выравнивает злементы по вертикали верх низ центр*/
+   background: rgb(6, 190, 246);
+}
+
+.block1{ 
+
+  padding-left: 2pc;
+  background: darkmagenta;
+  width: 20%;
+  color: rgb(208, 234, 208);
+}
+
+.block2{
+  padding-left: 2pc;
+  background: rgb(15, 228, 97);
+  width: 20%;
+  color: rgb(11, 65, 225);
+}
+
+.block3{
+  padding-left: 2pc;
+  background: gold;
+  width: 20%;
+  color: brown;
+}
+
+ .block4{
+  color: rgba(5, 15, 6, 0.922);
+ }
+
+
